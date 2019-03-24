@@ -27,7 +27,7 @@ int main(int argc, const char *argv[])
 
 	while(fgets(buf, N, fp_r) != NULL)
 	{
-		printf("buf = %s\n",buf);
+//		printf("buf = %s\n",buf);
 		fputs(buf, fp_w);
 	}
 	printf("copy ok\n");
